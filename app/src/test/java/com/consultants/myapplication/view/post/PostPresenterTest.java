@@ -32,7 +32,6 @@ import static org.mockito.Matchers.any;
 import static org.mockito.Matchers.notNull;
 import static org.mockito.Mockito.doThrow;
 import static org.mockito.Mockito.verify;
-import static org.mockito.Mockito.when;
 
 public class PostPresenterTest {
 
@@ -42,7 +41,6 @@ public class PostPresenterTest {
     @Mock
     PostContract.View view;
 
-    //@Mock
     PostPresenter presenter;
 
     @Mock
@@ -56,17 +54,15 @@ public class PostPresenterTest {
     @Before
     public void setUp() throws Exception {
 
-        expectedPost = new Post(1, 2, "a", "b");
         MockitoAnnotations.initMocks(this);
 
+        expectedPost = new Post(1, 2, "a", "b");
         presenter = new PostPresenter(remoteDataSource);
-
         presenter.attachView(view);
-
     }
 
     @Test
-    public void testObservable() {
+    public void verify_getPosts() {
 
 //        when(remoteDataSource.getPostsRx());
 //        when(presenter.getPosts());
@@ -120,12 +116,7 @@ public class PostPresenterTest {
     }
 
     @Test
-    public void getPosts() {
-    }
-
-    @Test
     public void attachView() {
-        //assert(presenter.attachView(view),notNull())
         assertNotNull(presenter.view);
     }
 
