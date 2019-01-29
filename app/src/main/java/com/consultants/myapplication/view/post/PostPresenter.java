@@ -1,5 +1,7 @@
 package com.consultants.myapplication.view.post;
 
+import android.support.annotation.VisibleForTesting;
+
 import com.consultants.myapplication.model.Post;
 import com.consultants.myapplication.model.data.RemoteDataSource;
 

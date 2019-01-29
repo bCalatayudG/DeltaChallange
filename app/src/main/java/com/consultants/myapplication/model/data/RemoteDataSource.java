@@ -46,7 +46,6 @@ public class RemoteDataSource {
         return createRetrofit().create(RemoteService.class).getPosts();
     }
 
-    @VisibleForTesting
     private Observable<List<Post>> getPostCallRx() {
 
         return createRetrofitRx().create(RemoteService.class).getPostsRx();
@@ -56,6 +55,7 @@ public class RemoteDataSource {
 
         getPostCall().enqueue(new Callback<List<Post>>() {
             @Override
+            @VisibleForTesting
             public void onResponse(Call<List<Post>> call, Response<List<Post>> response) {
                 dataCallback.onSuccess(response.body());
             }
