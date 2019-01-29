@@ -1,19 +1,15 @@
 package com.consultants.myapplication.view.post;
 
-import android.support.annotation.VisibleForTesting;
-import android.util.Log;
-
 import com.consultants.myapplication.model.Post;
 import com.consultants.myapplication.model.data.RemoteDataSource;
 
 import java.util.List;
 
-public class PostPresenter implements PostContract.Presenter{
+public class PostPresenter implements PostContract.Presenter {
 
     PostContract.View view;
     RemoteDataSource remoteDataSource;
-    private static final String TAG = PostPresenter.class.getSimpleName() + "_TAG";
-    
+
 
     public PostPresenter(RemoteDataSource remoteDataSource) {
         this.remoteDataSource = remoteDataSource;

@@ -9,21 +9,17 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;
 import org.robolectric.Robolectric;
-
 import org.robolectric.RobolectricTestRunner;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertNotNull;
 
 @RunWith(RobolectricTestRunner.class)
 public class PostActivityTest {
 
-    private PostActivity postActivity;
-
-    @Mock
-    RecyclerView.LayoutManager mockLayoutManager;
-
     @Mock
     PostAdapter mockPostAdapter;
+
+    private PostActivity postActivity;
 
     @Before
     public void setUp(){
@@ -34,25 +30,18 @@ public class PostActivityTest {
 
     @Test
     public void activityExists(){
+
         assertNotNull(postActivity);
+
     }
 
     @Test
     public void defaultDisplay(){
 
         RecyclerView recyclerView = postActivity.findViewById(R.id.rvMain);
-        //RecyclerView.LayoutManager layoutManager = recyclerView.getLayoutManager();
-        //assertThat(layoutManager,mockLayoutManager).isEqualTo(mockLayoutManager);
         recyclerView.setAdapter(mockPostAdapter);
         assertNotNull(recyclerView);
 
     }
 
-    @Test
-    public void onPostReceived() {
-    }
-
-    @Test
-    public void showError() {
-    }
 }
