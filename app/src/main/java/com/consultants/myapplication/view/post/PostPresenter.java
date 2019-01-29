@@ -26,12 +26,10 @@ public class PostPresenter implements PostContract.Presenter{
             @Override
             public void onSuccess(List<Post> posts) {
                 view.onPostReceived(posts);
-                Log.d(TAG, "onSuccess: ");
             }
 
             @Override
             public void onFailure(String error) {
-                Log.d(TAG, "onFailure: ");
                 view.showError(error);
             }
         });
