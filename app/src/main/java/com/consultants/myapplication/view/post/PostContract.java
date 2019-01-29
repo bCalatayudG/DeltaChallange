@@ -13,7 +13,7 @@ public class PostContract  {
 
     interface View extends BaseView {
 
-        @VisibleForTesting
+        //@VisibleForTesting
         void onPostReceived(List<Post> posts);
     }
 

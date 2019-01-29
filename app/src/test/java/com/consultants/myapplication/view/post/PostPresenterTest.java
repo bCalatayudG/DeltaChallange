@@ -12,6 +12,7 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
 
+
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
@@ -24,6 +25,8 @@ import io.reactivex.schedulers.Schedulers;
 import io.reactivex.schedulers.TestScheduler;
 import io.reactivex.subscribers.TestSubscriber;
 
+import static junit.framework.TestCase.assertNotNull;
+import static junit.framework.TestCase.assertNull;
 import static org.hamcrest.core.IsNull.notNullValue;
 import static org.mockito.Matchers.any;
 import static org.mockito.Matchers.notNull;
@@ -106,7 +109,7 @@ public class PostPresenterTest {
         //presenter.getPosts();
         remoteDataSource.getPostsRx(dataCallback);
         presenter.view.onPostReceived(Collections.singletonList(expectedPost));
-        verify(view,Mockito.only()).onPostReceived(Collections.singletonList(expectedPost));
+        verify(view, Mockito.only()).onPostReceived(Collections.singletonList(expectedPost));
     }
 
     //amantat@gmail.com
@@ -122,9 +125,13 @@ public class PostPresenterTest {
 
     @Test
     public void attachView() {
+        //assert(presenter.attachView(view),notNull())
+        assertNotNull(presenter.view);
     }
 
     @Test
     public void voidView() {
+        presenter.detachView();
+        assertNull(presenter.view);
     }
 }

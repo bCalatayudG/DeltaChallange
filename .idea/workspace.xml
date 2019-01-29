@@ -16,9 +16,12 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/consultants/myapplication/view/post/PostContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/consultants/myapplication/view/post/PostContract.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/test/java/com/consultants/myapplication/view/post/PostPresenterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/consultants/myapplication/view/post/PostPresenterTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,7 +48,7 @@
       <file leaf-file-name="PostPresenter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/consultants/myapplication/view/post/PostPresenter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17">
+            <state relative-caret-position="366">
               <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -61,13 +64,12 @@
       <file leaf-file-name="PostPresenterTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/test/java/com/consultants/myapplication/view/post/PostPresenterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
+            <state relative-caret-position="238">
+              <caret line="132" column="8" selection-start-line="132" selection-start-column="8" selection-end-line="132" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1598#1644#0" />
-                <marker date="1548783676647" expanded="true" signature="1598:3109" ph="..." />
-                <marker date="1548783676647" expanded="true" signature="1608:2414" ph="..." />
+                <marker date="1548784788079" expanded="true" signature="1653:3164" ph="..." />
+                <marker date="1548784788079" expanded="true" signature="1663:2469" ph="..." />
               </folding>
             </state>
           </provider>
@@ -77,7 +79,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/consultants/myapplication/view/post/PostContract.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="88">
-              <caret line="15" column="26" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="26" />
+              <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -2401,8 +2403,8 @@
         <option value="$PROJECT_DIR$/app/src/androidTest/java/com/consultants/myapplication/view/post/PostAdapterTest.java" />
         <option value="$PROJECT_DIR$/app/src/test/java/com/consultants/myapplication/view/post/PostAdapterTest.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/consultants/myapplication/model/data/RemoteDataSource.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/consultants/myapplication/view/post/PostContract.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/consultants/myapplication/view/post/PostPresenter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/consultants/myapplication/view/post/PostContract.java" />
         <option value="$PROJECT_DIR$/app/src/test/java/com/consultants/myapplication/view/post/PostPresenterTest.java" />
       </list>
     </option>
@@ -2464,8 +2466,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Android JUnit.PostPresenterTest.testObservable">
-    <configuration name="CodingTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Android JUnit.PostPresenterTest">
+    <configuration name="PostPresenterTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="app" />
       <extension name="coverage">
         <pattern>
@@ -2475,8 +2477,8 @@
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.consultants.myapplication" />
-      <option name="MAIN_CLASS_NAME" value="com.consultants.myapplication.CodingTest" />
+      <option name="PACKAGE_NAME" value="com.consultants.myapplication.view.post" />
+      <option name="MAIN_CLASS_NAME" value="com.consultants.myapplication.view.post.PostPresenterTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -2487,8 +2489,12 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
+      <method>
+        <option name="Make" enabled="false" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="CodingTest.positiveFindSum" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PostPresenterTest.attachView" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="app" />
       <extension name="coverage">
         <pattern>
@@ -2498,9 +2504,9 @@
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.consultants.myapplication" />
-      <option name="MAIN_CLASS_NAME" value="com.consultants.myapplication.CodingTest" />
-      <option name="METHOD_NAME" value="positiveFindSum" />
+      <option name="PACKAGE_NAME" value="com.consultants.myapplication.view.post" />
+      <option name="MAIN_CLASS_NAME" value="com.consultants.myapplication.view.post.PostPresenterTest" />
+      <option name="METHOD_NAME" value="attachView" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -2510,6 +2516,37 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
+      <method>
+        <option name="Make" enabled="false" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostPresenterTest.getPosts" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.consultants.myapplication.view.post.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.consultants.myapplication.view.post" />
+      <option name="MAIN_CLASS_NAME" value="com.consultants.myapplication.view.post.PostPresenterTest" />
+      <option name="METHOD_NAME" value="getPosts" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+      <method>
+        <option name="Make" enabled="false" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
     </configuration>
     <configuration name="PostPresenterTest.testObservable" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="app" />
@@ -2533,6 +2570,33 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
+    </configuration>
+    <configuration name="PostPresenterTest.voidView" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.consultants.myapplication.view.post.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.consultants.myapplication.view.post" />
+      <option name="MAIN_CLASS_NAME" value="com.consultants.myapplication.view.post.PostPresenterTest" />
+      <option name="METHOD_NAME" value="voidView" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+      <method>
+        <option name="Make" enabled="false" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -2603,17 +2667,6 @@
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
     </configuration>
-    <configuration name="Coding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.consultants.myapplication.Coding" />
-      <module name="app" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.consultants.myapplication.view.post.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -2645,17 +2698,19 @@
     </configuration>
     <list>
       <item itemvalue="Android App.app" />
-      <item itemvalue="Application.Coding" />
-      <item itemvalue="Android JUnit.CodingTest.positiveFindSum" />
-      <item itemvalue="Android JUnit.CodingTest" />
       <item itemvalue="Android JUnit.PostPresenterTest.testObservable" />
+      <item itemvalue="Android JUnit.PostPresenterTest.getPosts" />
+      <item itemvalue="Android JUnit.PostPresenterTest" />
+      <item itemvalue="Android JUnit.PostPresenterTest.attachView" />
+      <item itemvalue="Android JUnit.PostPresenterTest.voidView" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Android JUnit.PostPresenterTest" />
+        <item itemvalue="Android JUnit.PostPresenterTest.voidView" />
+        <item itemvalue="Android JUnit.PostPresenterTest.attachView" />
         <item itemvalue="Android JUnit.PostPresenterTest.testObservable" />
-        <item itemvalue="Android JUnit.CodingTest" />
-        <item itemvalue="Android JUnit.CodingTest.positiveFindSum" />
-        <item itemvalue="Application.Coding" />
+        <item itemvalue="Android JUnit.PostPresenterTest.getPosts" />
       </list>
     </recent_temporary>
   </component>
@@ -2673,21 +2728,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PostPresenterTest_testObservable - 2019.01.29 at 11h 44m 12s.xml">
-      <configuration name="PostPresenterTest.testObservable" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="PostPresenterTest_testObservable - 2019.01.29 at 12h 07m 26s.xml">
-      <configuration name="PostPresenterTest.testObservable" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="PostPresenterTest_testObservable - 2019.01.29 at 12h 11m 47s.xml">
-      <configuration name="PostPresenterTest.testObservable" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="PostPresenterTest_testObservable - 2019.01.29 at 12h 13m 01s.xml">
-      <configuration name="PostPresenterTest.testObservable" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="PostPresenterTest_testObservable - 2019.01.29 at 12h 21m 40s.xml">
-      <configuration name="PostPresenterTest.testObservable" configurationId="AndroidJUnit" />
-    </history-entry>
     <history-entry file="PostPresenterTest_testObservable - 2019.01.29 at 12h 25m 42s.xml">
       <configuration name="PostPresenterTest.testObservable" configurationId="AndroidJUnit" />
     </history-entry>
@@ -2702,6 +2742,21 @@
     </history-entry>
     <history-entry file="PostPresenterTest_testObservable - 2019.01.29 at 12h 40m 12s.xml">
       <configuration name="PostPresenterTest.testObservable" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="PostPresenterTest_getPosts - 2019.01.29 at 12h 50m 14s.xml">
+      <configuration name="PostPresenterTest.getPosts" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="PostPresenterTest_testObservable - 2019.01.29 at 12h 51m 23s.xml">
+      <configuration name="PostPresenterTest.testObservable" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="PostPresenterTest_testObservable - 2019.01.29 at 12h 54m 11s.xml">
+      <configuration name="PostPresenterTest.testObservable" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="PostPresenterTest - 2019.01.29 at 12h 54m 20s.xml">
+      <configuration name="PostPresenterTest" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="PostPresenterTest_attachView - 2019.01.29 at 12h 59m 41s.xml">
+      <configuration name="PostPresenterTest.attachView" configurationId="AndroidJUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -2828,9 +2883,8 @@
           <caret line="62" column="10" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1598#1644#0" />
-            <marker date="1548783676647" expanded="true" signature="1598:3109" ph="..." />
-            <marker date="1548783676647" expanded="true" signature="1608:2414" ph="..." />
+            <marker date="1548784788079" expanded="true" signature="1653:3164" ph="..." />
+            <marker date="1548784788079" expanded="true" signature="1663:2469" ph="..." />
           </folding>
         </state>
       </provider>
@@ -2946,9 +3000,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/consultants/myapplication/model/data/RemoteDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="57" column="30" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/consultants/myapplication/view/post/PostPresenter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
+        <state relative-caret-position="366">
           <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -2960,20 +3024,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/consultants/myapplication/model/data/RemoteDataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="57" column="30" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/consultants/myapplication/view/post/PostContract.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="26" />
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2982,13 +3036,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/test/java/com/consultants/myapplication/view/post/PostPresenterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
+        <state relative-caret-position="238">
+          <caret line="132" column="8" selection-start-line="132" selection-start-column="8" selection-end-line="132" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1598#1644#0" />
-            <marker date="1548783676647" expanded="true" signature="1598:3109" ph="..." />
-            <marker date="1548783676647" expanded="true" signature="1608:2414" ph="..." />
+            <marker date="1548784788079" expanded="true" signature="1653:3164" ph="..." />
+            <marker date="1548784788079" expanded="true" signature="1663:2469" ph="..." />
           </folding>
         </state>
       </provider>
