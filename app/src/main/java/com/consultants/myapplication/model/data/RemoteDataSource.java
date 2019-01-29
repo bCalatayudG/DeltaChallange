@@ -1,6 +1,7 @@
 package com.consultants.myapplication.model.data;
 
 import android.support.annotation.VisibleForTesting;
+import android.util.Log;
 
 import com.consultants.myapplication.model.Post;
 
@@ -23,6 +24,7 @@ import retrofit2.http.GET;
 public class RemoteDataSource {
 
     private static final String BASE_URL = "https://jsonplaceholder.typicode.com";
+    private static final String TAG = RemoteDataSource.class.getSimpleName() + "_TAG";
 
 
     private Retrofit createRetrofit() {
@@ -47,7 +49,6 @@ public class RemoteDataSource {
     }
 
     private Observable<List<Post>> getPostCallRx() {
-
         return createRetrofitRx().create(RemoteService.class).getPostsRx();
     }
 
@@ -76,7 +77,6 @@ public class RemoteDataSource {
                 .subscribe(new Observer<List<Post>>() {
                     @Override
                     public void onSubscribe(Disposable d) {
-
                     }
 
                     @Override
@@ -86,14 +86,12 @@ public class RemoteDataSource {
 
                     @Override
                     public void onError(Throwable e) {
-
                         dataCallback.onFailure(e.toString());
 
                     }
 
                     @Override
                     public void onComplete() {
-
                     }
                 });
 
@@ -105,6 +103,7 @@ public class RemoteDataSource {
         @GET("posts")
         Call<List<Post>> getPosts();
 
+        @GET("posts")
         Observable<List<Post>> getPostsRx();
     }
 

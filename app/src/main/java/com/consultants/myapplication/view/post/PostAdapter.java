@@ -10,11 +10,12 @@ import android.widget.TextView;
 import com.consultants.myapplication.R;
 import com.consultants.myapplication.model.Post;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class PostAdapter extends RecyclerView.Adapter<PostAdapter.ViewHolder> {
 
-List<Post> postList;
+    List<Post> postList =  new ArrayList<>();
 
     @NonNull
     @Override
@@ -27,8 +28,13 @@ List<Post> postList;
     public void onBindViewHolder(@NonNull ViewHolder viewHolder, int i) {
 
         Post post = postList.get(i);
-        viewHolder.tvTitle.setText(post.getTitle());
+        viewHolder.tvTitle.setText("Title: "+post.getTitle());
 
+    }
+
+    public void setPostList(List<Post> posts){
+        postList = posts;
+        notifyDataSetChanged();
     }
 
     @Override
@@ -38,6 +44,7 @@ List<Post> postList;
 
     public class ViewHolder extends RecyclerView.ViewHolder {
         TextView tvTitle;
+
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             tvTitle = itemView.findViewById(R.id.tvTitle);
