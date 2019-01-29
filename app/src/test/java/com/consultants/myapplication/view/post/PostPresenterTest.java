@@ -65,57 +65,55 @@ public class PostPresenterTest {
     @Test
     public void testObservable() {
 
-        //when(remoteDataSource.getPostsRx());
+//        when(remoteDataSource.getPostsRx());
 //        when(presenter.getPosts());
-        //when(remoteDataSource.getPosts(dataCallback));
-        //doNothing().when(presenter.getPosts()).thenReturn();
-
-        //doNothing().when(remoteDataSource).getPostsRx(dataCallback);
+//        when(remoteDataSource.getPosts(dataCallback));
+//        doNothing().when(presenter.getPosts()).thenReturn();
+//
+//        doNothing().when(remoteDataSource).getPostsRx(dataCallback);
 //        doReturn(expectedPost).when(remoteDataSource).getPostsRx(dataCallback);
-        //doThrow().when(remoteDataSource).getPostsRx(dataCallback);
-
-        //doReturn(expectedPost).when(presenter).getPosts();
+//        doThrow().when(remoteDataSource).getPostsRx(dataCallback);
+//
+//        doReturn(expectedPost).when(presenter).getPosts();
 //        when(presenter.getPosts()).thenReturn();
-
-        //TestSubscriber<List<Post>> listTestSubscriber = TestSubscriber.create();
-        //listTestSubscriber.onComplete();
+//
+//        TestSubscriber<List<Post>> listTestSubscriber = TestSubscriber.create();
+//        listTestSubscriber.onComplete();
 //        listTestSubscriber.hasSubscription();
 //        listTestSubscriber.assertNotSubscribed();
-
+//
 //        remoteDataSource.getPostsRx;
+//
+//
+//
+//        TestSubscriber<List<String>> listTestSubscriber = new TestSubscriber<>();
+//        Observable observable = remoteDataSource.getPostCallRx();
+//        observable.subscribe(listTestSubscriber);
+//
+//        observable.subscribeOn(AndroidSchedulers.from())
+//                .subscribeOn(Schedulers.io())
+//                .subscribe((Observer) listTestSubscriber);
+//
+//        listTestSubscriber.assertComplete();
+//        listTestSubscriber.assertNoErrors();
+//
 
 
-        /*
-        TestSubscriber<List<String>> listTestSubscriber = new TestSubscriber<>();
-        Observable observable = remoteDataSource.getPostCallRx();
-        //observable.subscribe(listTestSubscriber);
+//        when(remoteDataSource.getPostCallRx()).thenReturn(expectedPost);
+//        presenter.getPosts();
+//        Mockito.verify(view,Mockito.only()).onPostReceived(Collections.singletonList(expectedPost));
 
-        observable.subscribeOn(AndroidSchedulers.from())
-                .subscribeOn(Schedulers.io())
-                .subscribe((Observer) listTestSubscriber);
-
-        listTestSubscriber.assertComplete();
-        listTestSubscriber.assertNoErrors();
-        */
-
-
-        //when(remoteDataSource.getPostCallRx()).thenReturn(expectedPost);
         //presenter.getPosts();
-        //Mockito.verify(view,Mockito.only()).onPostReceived(Collections.singletonList(expectedPost));
-
-        presenter.getPosts();
         remoteDataSource.getPostsRx(dataCallback);
         presenter.view.onPostReceived(Collections.singletonList(expectedPost));
-        Mockito.verify(view,Mockito.only()).onPostReceived(Collections.singletonList(expectedPost));
+        verify(view,Mockito.only()).onPostReceived(Collections.singletonList(expectedPost));
     }
 
     //amantat@gmail.com
 
-
-
-
     @After
     public void tearDown() throws Exception {
+        presenter.detachView();
     }
 
     @Test
