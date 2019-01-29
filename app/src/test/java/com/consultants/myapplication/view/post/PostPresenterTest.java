@@ -60,7 +60,7 @@ public class PostPresenterTest {
 
         //doNothing().when(remoteDataSource).getPostsRx(dataCallback);
 //        doReturn(expectedPost).when(remoteDataSource).getPostsRx(dataCallback);
-        doThrow(new Exception()).when(remoteDataSource).getPostitsRx(dataCallback);
+        //doThrow().when(remoteDataSource).getPostsRx(dataCallback);
 
         doReturn(expectedPost).when(presenter).getPosts();
 //        when(presenter.getPosts()).thenReturn();
