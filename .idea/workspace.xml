@@ -17,24 +17,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e8b93b2-7319-4675-8baa-bc8b147a2761" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_http_legacy_android_28.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskJars.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskJars.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/consultants/myapplication/view/post/PostActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/consultants/myapplication/view/post/PostActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/consultants/myapplication/view/post/PostAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/consultants/myapplication/view/post/PostAdapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/test/java/com/consultants/myapplication/view/post/PostActivityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/consultants/myapplication/view/post/PostActivityTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/test/java/com/consultants/myapplication/view/post/PostAdapterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/consultants/myapplication/view/post/PostAdapterTest.java" afterDir="false" />
     </list>
@@ -62,51 +56,44 @@
       <file leaf-file-name="PostAdapter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/consultants/myapplication/view/post/PostAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-260">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="148">
+              <caret line="52" column="15" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#553#554#0" expanded="true" />
+                <element signature="e#576#577#0" expanded="true" />
+                <element signature="e#1084#1085#0" expanded="true" />
+                <element signature="e#1116#1117#0" expanded="true" />
                 <element signature="e#1029#1030#0" expanded="true" />
                 <element signature="e#1067#1068#0" expanded="true" />
+                <element signature="e#1243#1244#0" expanded="true" />
+                <element signature="e#1281#1282#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PostActivityTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/test/java/com/consultants/myapplication/view/post/PostActivityTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="43" column="10" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#698#699#0" expanded="true" />
-                <element signature="e#741#742#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PostActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/consultants/myapplication/view/post/PostActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="56" column="26" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
-              <folding>
-                <element signature="method#onStop#0;class#PostActivity#0" />
-                <element signature="e#1631#1632#0" expanded="true" />
-                <element signature="e#1677#1678#0" expanded="true" />
-                <element signature="method#showError#0;class#PostActivity#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PostAdapterTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PostAdapterTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/test/java/com/consultants/myapplication/view/post/PostAdapterTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="155">
-              <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+              <caret line="54" selection-start-line="54" selection-end-line="54" />
+              <folding>
+                <element signature="e#1040#1041#0" expanded="true" />
+                <element signature="e#1089#1090#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PostActivityTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/test/java/com/consultants/myapplication/view/post/PostActivityTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="30" column="69" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="69" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -2440,13 +2427,13 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/consultants/myapplication/model/data/RemoteDataSource.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/post_item.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/consultants/myapplication/view/post/PostActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/consultants/myapplication/view/post/PostAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/consultants/myapplication/view/post/PostPresenter.java" />
-        <option value="$PROJECT_DIR$/app/src/test/java/com/consultants/myapplication/view/post/PostAdapterTest.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/test/java/com/consultants/myapplication/view/post/PostActivityTest.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/consultants/myapplication/view/post/PostActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/consultants/myapplication/view/post/PostAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/test/java/com/consultants/myapplication/view/post/PostAdapterTest.java" />
       </list>
     </option>
   </component>
@@ -2483,6 +2470,55 @@
               <item name="MyApplication" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="MyApplication" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyApplication" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="consultants" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyApplication" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="consultants" type="462c0819:PsiDirectoryNode" />
+              <item name="myapplication" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyApplication" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="consultants" type="462c0819:PsiDirectoryNode" />
+              <item name="myapplication" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyApplication" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="consultants" type="462c0819:PsiDirectoryNode" />
+              <item name="myapplication" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyApplication" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="consultants" type="462c0819:PsiDirectoryNode" />
+              <item name="myapplication" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="post" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyApplication" type="1abcf292:AndroidViewProjectNode" />
@@ -2563,7 +2599,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Android JUnit.PostActivityTest.defaultDisplay">
+  <component name="RunManager" selected="Android JUnit.PostAdapterTest.onBindViewHolder">
     <configuration name="PostActivityTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="app" />
       <extension name="coverage">
@@ -2610,7 +2646,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="PostPresenterTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PostAdapterTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="app" />
       <extension name="coverage">
         <pattern>
@@ -2621,7 +2657,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.consultants.myapplication.view.post" />
-      <option name="MAIN_CLASS_NAME" value="com.consultants.myapplication.view.post.PostPresenterTest" />
+      <option name="MAIN_CLASS_NAME" value="com.consultants.myapplication.view.post.PostAdapterTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -2632,8 +2668,12 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
+      <method>
+        <option name="Make" enabled="false" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="PostPresenterTest.attachView" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PostAdapterTest.getItemCount" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="app" />
       <extension name="coverage">
         <pattern>
@@ -2644,8 +2684,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.consultants.myapplication.view.post" />
-      <option name="MAIN_CLASS_NAME" value="com.consultants.myapplication.view.post.PostPresenterTest" />
-      <option name="METHOD_NAME" value="attachView" />
+      <option name="MAIN_CLASS_NAME" value="com.consultants.myapplication.view.post.PostAdapterTest" />
+      <option name="METHOD_NAME" value="getItemCount" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -2655,8 +2695,12 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
+      <method>
+        <option name="Make" enabled="false" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="PostPresenterTest.voidView" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PostAdapterTest.onBindViewHolder" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="app" />
       <extension name="coverage">
         <pattern>
@@ -2667,8 +2711,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.consultants.myapplication.view.post" />
-      <option name="MAIN_CLASS_NAME" value="com.consultants.myapplication.view.post.PostPresenterTest" />
-      <option name="METHOD_NAME" value="voidView" />
+      <option name="MAIN_CLASS_NAME" value="com.consultants.myapplication.view.post.PostAdapterTest" />
+      <option name="METHOD_NAME" value="onBindViewHolder" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -2678,6 +2722,10 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
+      <method>
+        <option name="Make" enabled="false" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -2779,19 +2827,19 @@
     </configuration>
     <list>
       <item itemvalue="Android App.app" />
-      <item itemvalue="Android JUnit.PostPresenterTest" />
-      <item itemvalue="Android JUnit.PostPresenterTest.attachView" />
-      <item itemvalue="Android JUnit.PostPresenterTest.voidView" />
       <item itemvalue="Android JUnit.PostActivityTest.defaultDisplay" />
       <item itemvalue="Android JUnit.PostActivityTest" />
+      <item itemvalue="Android JUnit.PostAdapterTest.getItemCount" />
+      <item itemvalue="Android JUnit.PostAdapterTest" />
+      <item itemvalue="Android JUnit.PostAdapterTest.onBindViewHolder" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Android JUnit.PostAdapterTest.onBindViewHolder" />
+        <item itemvalue="Android JUnit.PostAdapterTest" />
+        <item itemvalue="Android JUnit.PostAdapterTest.getItemCount" />
         <item itemvalue="Android JUnit.PostActivityTest.defaultDisplay" />
         <item itemvalue="Android JUnit.PostActivityTest" />
-        <item itemvalue="Android JUnit.PostPresenterTest" />
-        <item itemvalue="Android JUnit.PostPresenterTest.voidView" />
-        <item itemvalue="Android JUnit.PostPresenterTest.attachView" />
       </list>
     </recent_temporary>
   </component>
@@ -2809,35 +2857,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PostActivityTest - 2019.01.29 at 14h 53m 19s.xml">
-      <configuration name="PostActivityTest" configurationId="AndroidJUnit" />
+    <history-entry file="PostAdapterTest - 2019.01.29 at 15h 47m 03s.xml">
+      <configuration name="PostAdapterTest" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="PostActivityTest - 2019.01.29 at 14h 56m 26s.xml">
-      <configuration name="PostActivityTest" configurationId="AndroidJUnit" />
+    <history-entry file="PostAdapterTest - 2019.01.29 at 15h 48m 31s.xml">
+      <configuration name="PostAdapterTest" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="PostActivityTest - 2019.01.29 at 15h 00m 26s.xml">
-      <configuration name="PostActivityTest" configurationId="AndroidJUnit" />
+    <history-entry file="PostAdapterTest_getItemCount - 2019.01.29 at 15h 51m 26s.xml">
+      <configuration name="PostAdapterTest.getItemCount" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="PostActivityTest - 2019.01.29 at 15h 11m 21s.xml">
-      <configuration name="PostActivityTest" configurationId="AndroidJUnit" />
+    <history-entry file="PostAdapterTest - 2019.01.29 at 15h 51m 36s.xml">
+      <configuration name="PostAdapterTest" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="PostActivityTest - 2019.01.29 at 15h 12m 23s.xml">
-      <configuration name="PostActivityTest" configurationId="AndroidJUnit" />
+    <history-entry file="PostAdapterTest_onBindViewHolder - 2019.01.29 at 15h 53m 43s.xml">
+      <configuration name="PostAdapterTest.onBindViewHolder" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="PostActivityTest - 2019.01.29 at 15h 18m 54s.xml">
-      <configuration name="PostActivityTest" configurationId="AndroidJUnit" />
+    <history-entry file="PostAdapterTest_onBindViewHolder - 2019.01.29 at 15h 57m 10s.xml">
+      <configuration name="PostAdapterTest.onBindViewHolder" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="PostActivityTest - 2019.01.29 at 15h 19m 41s.xml">
-      <configuration name="PostActivityTest" configurationId="AndroidJUnit" />
+    <history-entry file="PostAdapterTest_onBindViewHolder - 2019.01.29 at 15h 58m 25s.xml">
+      <configuration name="PostAdapterTest.onBindViewHolder" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="PostActivityTest - 2019.01.29 at 15h 20m 22s.xml">
-      <configuration name="PostActivityTest" configurationId="AndroidJUnit" />
+    <history-entry file="PostAdapterTest_onBindViewHolder - 2019.01.29 at 16h 00m 15s.xml">
+      <configuration name="PostAdapterTest.onBindViewHolder" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="PostActivityTest - 2019.01.29 at 15h 21m 20s.xml">
-      <configuration name="PostActivityTest" configurationId="AndroidJUnit" />
+    <history-entry file="PostAdapterTest_onBindViewHolder - 2019.01.29 at 16h 13m 27s.xml">
+      <configuration name="PostAdapterTest.onBindViewHolder" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="PostActivityTest_defaultDisplay - 2019.01.29 at 15h 23m 57s.xml">
-      <configuration name="PostActivityTest.defaultDisplay" configurationId="AndroidJUnit" />
+    <history-entry file="PostAdapterTest_onBindViewHolder - 2019.01.29 at 16h 18m 21s.xml">
+      <configuration name="PostAdapterTest.onBindViewHolder" configurationId="AndroidJUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -2852,14 +2900,14 @@
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="right" id="Preview" order="1" />
-      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.44059405" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.44059405" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Terminal" order="5" />
       <window_info anchor="bottom" id="Logcat" order="4" weight="0.40759075" />
       <window_info id="Captures" order="7" weight="0.25" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.21860817" />
+      <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.21860817" />
       <window_info anchor="bottom" id="Build" order="0" weight="0.32343236" />
       <window_info anchor="right" id="Gradle" order="3" />
       <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
@@ -3063,13 +3111,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/8df6fbc2c83fe5f838b762dee1798e87/jars/classes.jar!/android/support/v7/widget/RecyclerView.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="432" column="74" selection-start-line="432" selection-start-column="74" selection-end-line="432" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/be1a33934118dfbbf7f5a84715925eb4/jars/classes.jar!/android/support/constraint/ConstraintLayout.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="113">
@@ -3081,13 +3122,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="113">
           <caret line="77" column="88" selection-start-line="77" selection-start-column="88" selection-end-line="77" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/android/view/ViewGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6198" selection-start-line="6198" selection-end-line="6198" />
         </state>
       </provider>
     </entry>
@@ -3218,13 +3252,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/consultants/myapplication/view/post/PostAdapterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider editor-type-id="android-manifest">
         <state />
@@ -3235,39 +3262,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/consultants/myapplication/view/post/PostActivity.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/8df6fbc2c83fe5f838b762dee1798e87/jars/classes.jar!/android/support/v7/widget/RecyclerView.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="56" column="26" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
+        <state relative-caret-position="96">
+          <caret line="6077" selection-start-line="6077" selection-end-line="6077" />
           <folding>
-            <element signature="method#onStop#0;class#PostActivity#0" />
-            <element signature="e#1631#1632#0" expanded="true" />
-            <element signature="e#1677#1678#0" expanded="true" />
-            <element signature="method#showError#0;class#PostActivity#0" />
+            <element signature="e#239547#239548#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/consultants/myapplication/view/post/PostAdapter.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/consultants/myapplication/view/post/PostActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-260">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="195">
+          <caret line="57" column="39" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="39" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1029#1030#0" expanded="true" />
-            <element signature="e#1067#1068#0" expanded="true" />
+            <element signature="method#onStop#0;class#PostActivity#0" />
+            <element signature="method#showError#0;class#PostActivity#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/test/java/com/consultants/myapplication/view/post/PostActivityTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="43" column="10" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
+        <state relative-caret-position="204">
+          <caret line="30" column="69" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#698#699#0" expanded="true" />
-            <element signature="e#741#742#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/android/view/ViewGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="119" column="22" selection-start-line="119" selection-start-column="22" selection-end-line="119" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/consultants/myapplication/view/post/PostAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="52" column="15" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#1084#1085#0" expanded="true" />
+            <element signature="e#1116#1117#0" expanded="true" />
+            <element signature="e#1029#1030#0" expanded="true" />
+            <element signature="e#1067#1068#0" expanded="true" />
+            <element signature="e#1243#1244#0" expanded="true" />
+            <element signature="e#1281#1282#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/consultants/myapplication/view/post/PostAdapterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="e#1040#1041#0" expanded="true" />
+            <element signature="e#1089#1090#0" expanded="true" />
           </folding>
         </state>
       </provider>

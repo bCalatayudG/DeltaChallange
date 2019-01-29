@@ -46,7 +46,6 @@ public class PostActivityTest {
         recyclerView.setAdapter(mockPostAdapter);
         assertNotNull(recyclerView);
 
-
     }
 
     @Test

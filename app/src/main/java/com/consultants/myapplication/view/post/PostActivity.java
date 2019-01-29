@@ -55,6 +55,7 @@ public class PostActivity extends AppCompatActivity implements PostContract.View
     @Override
     public void onPostReceived(List<Post> posts) {
         postAdapter.setPostList(posts);
+        postAdapter.notifyItemChanged();
     }
 
     @Override
